@@ -23,13 +23,13 @@ s3mon:
   secret_key: SECRET_ACCESS_KEY
   buckets:
     bucket_A:
-      - file: starts_with_foo
+      - prefix: starts_with_foo
         age: 86400
         size: 30720
     bucket_B:
-      - file: file
+      - prefix: file
         age: 43200
         size: 1024
-      - file: exact_file_name
+      - prefix: exact_file_name
         age: 43200
 ```
