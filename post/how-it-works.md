@@ -7,9 +7,9 @@ description= "s3mon -c config.yml"
 
 # In a nutshell
 
-**s3mon** will list and search for files of a certain pattern
-on a list of defined buckets that are not older than a defined
-period. These options are defined in a `config.yml` file
+**s3mon** will list and search for files starting with `prefix`
+on a list of defined buckets that are not older than a specified
+age. These options are defined in a `config.yml` file,
 ([YAML formated](https://en.wikipedia.org/wiki/YAML))
 
 
