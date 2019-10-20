@@ -11,6 +11,23 @@ To install `s3mon`:
 
 > check your PATH `$HOME/.cargo/bin/s3mon`
 
+
+```sh
+$ ~/.cargo/bin/s3mon -h
+s3mon x.x.x
+
+USAGE:
+    s3mon [OPTIONS]
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -c, --config <FILE>    config.yml
+
+```
+
 If you don't have [`cargo`](https://doc.rust-lang.org/cargo/getting-started/installation.html) try:
 
 ```sh
